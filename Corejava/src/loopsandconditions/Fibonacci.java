@@ -1,4 +1,4 @@
-package LoopsandConditions;
+package loopsandconditions;
 
 public class Fibonacci {
     public int fibon(int N){

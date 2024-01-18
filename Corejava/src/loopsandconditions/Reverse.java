@@ -1,4 +1,4 @@
-package LoopsandConditions;
+package loopsandconditions;
 
 public class Reverse {
     int temprev=0;

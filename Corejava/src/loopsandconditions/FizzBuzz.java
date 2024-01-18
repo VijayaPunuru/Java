@@ -1,4 +1,4 @@
-package LoopsandConditions;
+package loopsandconditions;
 
 public class FizzBuzz {
     public void fizz(){
