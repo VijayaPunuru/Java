@@ -47,18 +47,22 @@ public class Person {
 
     @Override
     public boolean equals(Object obj) {
-        return obj == this;
+        if( obj instanceof Person){
+                Person obj2 = (Person) obj;
+            return this.ssn == obj2.ssn;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
         Person person1 = new Person(175, 70.5, 123456789, 35678761);
         Person person2 = new Person(180, 65.8, 987654321, 87649056);
-        Person person3 = new Person(165, 55.2, 123456789, 76789988);
+        Person person3 = new Person(175, 70.5, 123456789, 35678761);
 
         if (person1.equals(person3)) {
-            System.out.println(person1 + " is the same person as " + person3);
+            System.out.println("person1 ssn matches with the person3 ");
         } else {
-            System.out.println(person1 + " is not the same person as " + person3);
+            System.out.println(" person1 ssn does not match with the person3");
         }
 
 
