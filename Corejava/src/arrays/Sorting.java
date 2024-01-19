@@ -23,7 +23,7 @@ public class Sorting {
     }
     public static void main(String args[]){
         Sorting obj1=new Sorting();
-        int [] arr=new int[]{1,2,6,1,98,4};
+        int [] arr=new int[]{1,2,3,4,5,89};
         obj1.sortingarr(arr);
 
     }

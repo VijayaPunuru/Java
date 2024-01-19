@@ -21,7 +21,7 @@ public class Smallandlarge {
    }
     public static void main(String args[]){
         Smallandlarge obj1=new Smallandlarge();
-        int [] arr=new int[]{7,45,7,76,99};
+        int [] arr=new int[]{0,45,897,76,9};
         obj1.sandl(arr);
 
     }

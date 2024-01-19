@@ -14,7 +14,6 @@ public class Reverse {
         }
         for(int i=0;i<size;i++){
             System.out.print(" "+arr[i]);
-
         }
 
         return 0;
