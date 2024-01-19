@@ -22,7 +22,7 @@ public class RatingAndProfit {
         }
 
         // Sorting by profit
-        Collections.sort(movies, new ProfitComp());
+        Collections.sort(movies, new ProfitCompar());
         System.out.println("\nMovies sorted by profit:");
         for (Movie movie : movies) {
             System.out.println(" - Profit: " + (movie.getCollectionAmount() - movie.getBudget()));
