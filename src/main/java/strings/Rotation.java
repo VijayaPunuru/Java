@@ -1,7 +1,7 @@
 package strings;
 
 public class Rotation {
-    private static boolean areRotations(String str1, String str2) {
+    public static boolean areRotations(String str1, String str2) {
         if (str1.length() != str2.length() || str1.length() == 0) {
             return false;
         }

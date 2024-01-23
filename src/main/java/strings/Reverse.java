@@ -1,7 +1,7 @@
 package strings;
 
 public class Reverse {
-    private static String reverseWords(String sentence) {
+    public static String reverseWords(String sentence) {
         String[] words = sentence.split("\\s");
         for (int i = 0; i < words.length; i++) {
             words[i] = reverseString(words[i]);

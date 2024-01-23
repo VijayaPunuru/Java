@@ -1,7 +1,7 @@
 package strings;
 
 public class Vowels {
-    private static int countvow(String str) {
+    public static int countvow(String str) {
         int count = 0;
         str = str.toLowerCase();
 
