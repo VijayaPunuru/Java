@@ -2,7 +2,7 @@ package strings;
 import java.util.Arrays;
 
 public class Anagram {
-    private static boolean anagrams(String str1, String str2) {
+    public static boolean anagrams(String str1, String str2) {
         str1 = str1.replaceAll("\\s", "").toLowerCase();
         str2 = str2.replaceAll("\\s", "").toLowerCase();
 
