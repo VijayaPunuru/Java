@@ -1,8 +1,5 @@
 import org.junit.Test;
-import strings.Reverse;
-import org.junit.Assert;
 import strings.Vowels;
-
 import static org.junit.Assert.assertEquals;
 public class VowelsTest {
     @Test
