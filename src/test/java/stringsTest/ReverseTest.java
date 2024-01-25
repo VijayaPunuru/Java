@@ -1,3 +1,4 @@
+package stringsTest;
 import org.junit.Test;
 import strings.Reverse;
 import org.junit.Assert;

@@ -14,7 +14,6 @@ public class StudentTest {
 
         Student.filterStudents(sl);
         assertEquals(2, sl.size());
-        // Add more assertions based on your specific requirements
     }
 }
 

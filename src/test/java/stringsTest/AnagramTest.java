@@ -1,6 +1,6 @@
+package stringsTest;
 import org.junit.Test;
 import strings.Anagram;
-
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 

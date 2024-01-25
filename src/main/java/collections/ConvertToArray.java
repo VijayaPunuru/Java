@@ -4,19 +4,23 @@ import java.util.ArrayList;
 
 public class ConvertToArray {
     public static void main(String[] args) {
-        ArrayList<String> inp = new ArrayList();
-        inp.add("adding 1st element");
-        inp.add("adding 2nd element");
-        inp.add("adding 3rd element");
-        inp.add("adding 4th element");
-        inp.add("adding 5th element");
-        inp.add("adding 6th element");
+        ArrayList<String> stringList = new ArrayList<>();
+        stringList.add("Element 1");
+        stringList.add("Element 2");
+        stringList.add("Element 3");
 
-        String [] arr1=new String[inp.size()];
-         arr1 = inp.toArray(arr1);
+        String[] stringArray = convertArrayListToArray(stringList);
 
-        for (String s : arr1) {
-            System.out.println(s);
+        System.out.println("Array elements:");
+        for (String element : stringArray) {
+            System.out.println(element);
         }
+    }
+
+    public static String[] convertArrayListToArray(ArrayList<String> list) {
+        String[] array = new String[list.size()];
+        list.toArray(array);
+
+        return array;
     }
 }
