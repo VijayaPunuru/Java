@@ -4,6 +4,7 @@ public class StudentHashmap{
     private HashMap<String, Student> s;
 
     public StudentHashmap() {
+
         this.s = new HashMap<>();
     }
     public void addStudent(Student student) {
