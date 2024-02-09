@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 public class DoubleEvenNumbers {
     public static void doubleeven(List<Integer> numbers){
         List<Integer> doubledFilteredNumbers = numbers.stream()
-                .filter(n -> (n % 2) == 0)
+                .filter(n -> (n % 2) != 0)
                 .map(n -> n * 2)
                 .collect(Collectors.toList());
 
